@@ -2,15 +2,15 @@
   "name": "todo-list",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
   "scripts": {
-    "build": "netlify dev",
+    "build": "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
-    "node-fetch": "^2.6.7"
+    "node-fetch": "^2.6.7",
+    "parcel": "^2.6.2"
   }
 }
