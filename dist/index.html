@@ -7,22 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Serverless ToDo List...</title>
 
-    <style>.single {
-  width: 500px;
-  border: 1px solid #190442;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 10px;
-  padding: 10px;
-  display: flex;
-}
+    <style>
+        .single {
+            width: 500px;
+            border: 1px solid #190442;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            padding: 10px;
+            display: flex;
+        }
 
-.task-item {
-  flex-basis: 300px;
-  font-weight: 600;
-}
-
-</style>
+        .task-item {
+            flex-basis: 300px;
+            font-weight: 600;
+        }
+    </style>
 </head>
 
 <body>
@@ -37,7 +37,8 @@
 
     <template id="task-template">
         <div class="single">
-            <span class="task-item"></span> <span class="edit-btn">Edit</span> <span class="delete-btn" style="color: red; padding-left: 50px">X</span>
+            <span class="task-item"></span> <span class="edit-btn">Edit</span> <span class="delete-btn"
+                style="color: red; padding-left: 50px">X</span>
         </div>
     </template>
 
